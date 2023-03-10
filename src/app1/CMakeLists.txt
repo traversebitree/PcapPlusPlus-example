@@ -1,6 +1,6 @@
 add_executable(app1 app1.cpp)
 target_link_libraries(app1 PRIVATE fmt::fmt Pcap++)
-# app1.cpp is from 
+# app1.cpp is from https://github.com/seladb/PcapPlusPlus#getting-started
 
 # copy .dll and .pcap after build
 add_custom_command(TARGET app1 POST_BUILD

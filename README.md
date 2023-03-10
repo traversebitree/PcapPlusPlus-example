@@ -6,8 +6,17 @@
 -->
 
 ## Usage
+clone, generate, build.
 ```shell
 git clone https://github.com/traversebitree/PcapPlusPlus-example.git
 cd PcapPlusPlus-example
-cmake --preset="MSVC-x64-DEV"
+mkdir build
+cd build
+cmake -S .. -G "Visual Studio 17 2022" -DCMAKE_BUILD_TYPE=Debug
+cmake --build .
+```
+Go to the .exe directory and excute it.
+```shell
+cd .\src\app1\Debug\
+.\app1.exe
 ```

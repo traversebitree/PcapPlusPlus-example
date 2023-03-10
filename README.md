@@ -6,7 +6,7 @@
 -->
 
 ## Usage
-``shell
+```shell
 git clone https://github.com/traversebitree/PcapPlusPlus-example.git
 cd PcapPlusPlus-example
 cmake --preset="MSVC-x64-DEV"

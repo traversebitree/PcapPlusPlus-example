@@ -19,7 +19,7 @@ FetchContent_MakeAvailable(pcap)
 FetchContent_Declare(
     pcapplusplus
     SYSTEM
-    GIT_REPOSITORY https://ghproxy.com/https://github.com/seladb/PcapPlusPlus
+    GIT_REPOSITORY https://github.com/seladb/PcapPlusPlus
     GIT_TAG 4e5b3e781d75395aaf3688cb542232540002225e
 )
 set(PCAP_ROOT "${pcap_SOURCE_DIR}")
@@ -31,7 +31,7 @@ set(BUILD_SHARED_LIBS TRUE CACHE INTERNAL "Build Dll" FORCE)
 FetchContent_Declare(
     fmt
     SYSTEM
-    GIT_REPOSITORY https://ghproxy.com/https://github.com/fmtlib/fmt
+    GIT_REPOSITORY https://github.com/fmtlib/fmt
     GIT_TAG 9.1.0
 )
 FetchContent_MakeAvailable(fmt)
